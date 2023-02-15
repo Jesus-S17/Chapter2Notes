@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e556826f-f8f8-4dcc-a6d3-6d0ebcf2fa10" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/input.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inputNotes.js" beforeDir="false" afterPath="$PROJECT_DIR$/inputNotes.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -146,7 +144,7 @@
       <workItem from="1675877818154" duration="2835000" />
       <workItem from="1675964117443" duration="3240000" />
       <workItem from="1676050235085" duration="2858000" />
-      <workItem from="1676396202853" duration="3172000" />
+      <workItem from="1676396202853" duration="3193000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1675706523696</created>
@@ -155,15 +153,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675706523696</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="initial commit">
+      <created>1676399383373</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676399383373</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19229000" />
+    <option name="totallyTimeSpent" value="19250000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.91922456" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
