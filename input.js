@@ -1,5 +1,5 @@
 //1
-const readLine = require("readline-sync");
+const readLine = require("readLine-sync");
 let answer = readLine.question("Do you want to hear a joke?" +  "   Yes, No");
 if (answer == "Yes"){
     console.log(`What is the best thing about Switzerland.\n I don't know ,but the flag is a big plus.`)}
@@ -52,21 +52,28 @@ if (number7 == 17) {
 }
 
 //5
-let cost=Number(readLine.question( "Enter current price: "));
-let tax=cost*0.08
-let answer = cost+tax
-console.log(`discount: ${discount}`);
+let cost = Number(readLine.question( "Enter current price: "));
+let tax  =cost *.08
+let newCost = cost + tax
+console.log(`Your cost is ${newCost.toFixed(2)}`);
 //6
-if (currentPrice == 0){
-    console.log("Invalid");
+if (cost <= 0){
+    console.log("Invalid cost");
 }
-if (originalPrice == 0){
-    console.log("Invalid");
+else {
+    let tax  =cost *.08
+    let newCost = cost + tax
+    console.log(`Your cost is ${newCost.toFixed(2)}`);
 }
 
 //7
-let num9 = readLine.question("How was the service?: ");
-let num9 = readLine.question("Was the service great? 20% tip");
-let num9 = readLine.question("Was the service good? 15% tip");
-let num9 = readLine.question("Was the service average? 10% tip");
-let num9 = readLine.question("Was the service bad? 0% tip");
+let mealCost =  Number(readLine.question("How was the service?: "));
+let service = readLine.question("Was the service great? 20% tip");
+let tip = 0;
+if (service == "great"){
+    tip = mealCost * .20;
+} else if (service == "good"){
+    tip = mealCost * .15;
+} else {
+    tip = mealCost * .10;
+}
